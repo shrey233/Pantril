@@ -1,0 +1,37 @@
+.product {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.leftSide {
+  display: flex;
+}
+
+.product:hover {
+  text-decoration: none;
+}
+
+.image {
+  max-width: 80px;
+  max-height: 80px;
+}
+
+.details {
+  margin-left: 20px;
+}
+
+.title {
+  color: #495057;
+}
+
+.price {
+  font-weight: 500;
+  font-size: 19px;
+  color: #495057;
+}
+
+.actions {
+  display: flex;
+  justify-content: flex-end;
+}

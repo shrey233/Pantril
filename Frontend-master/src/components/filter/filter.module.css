@@ -1,0 +1,62 @@
+.filterSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 1rem;
+}
+
+.avoidance {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+}
+
+.header {
+  padding-bottom: 10px;
+}
+
+.filters {
+  margin: 10px 15px;
+  text-align: center;
+  min-width: 345px;
+}
+
+.long {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .short {
+    display: none;
+  }
+
+  .filterButton {
+    min-width: 120px;
+  }
+
+  .filters {
+    min-width: 480px;
+  }
+}
+
+.mayContain {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.chooseStore {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.filterSection .link {
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.subLink {
+  font-size: 16px;
+}

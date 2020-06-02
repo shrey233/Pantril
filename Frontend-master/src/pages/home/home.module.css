@@ -1,0 +1,141 @@
+.hero {
+  display: flex;
+  align-items: flex-end;
+  background: url("../../assets/lemons.jpg") no-repeat;
+  padding: 1rem 1rem;
+  background-position: center center;
+  background-size: cover;
+  min-height: 280px;
+}
+
+.logo {
+  position: absolute;
+  top: 0;
+  font-size: 30px;
+  color: white;
+  font-weight: 600;
+}
+
+.header {
+  color: white;
+  position: absolute;
+  top: 55px;
+}
+
+.getStarted {
+  position: absolute;
+  top: 110px;
+}
+
+.menuItem {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .hero {
+    display: flex;
+    align-items: flex-end;
+    background: url("../../assets/lemons.jpg") no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding: 4rem 2rem;
+    min-height: 100vh;
+  }
+
+  .logo {
+    position: absolute;
+    left: 32px;
+    top: 16px;
+    font-size: 80px;
+    color: white;
+    font-weight: 600;
+  }
+
+  .header {
+    color: white;
+    position: absolute;
+    top: 170px;
+    left: 32px;
+  }
+
+  .getStarted {
+    position: absolute;
+    top: 340px;
+    left: 32px;
+  }
+
+  .auth {
+    position: absolute;
+    right: 32px;
+    top: 32px;
+    display: flex;
+  }
+
+  .menuItem {
+    padding: 10px 20px;
+  }
+
+  .menuItem a {
+    color: white;
+  }
+}
+
+.subheading {
+  background: #f7f7f7;
+  font-weight: 600;
+  padding: 1rem 1rem;
+  text-align: center;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f7f7f7;
+  font-weight: 600;
+  padding: 1rem 1rem;
+  text-align: center;
+}
+
+.footer a {
+  margin: 0 20px;
+}
+
+.shuffleImg {
+  height: 50px;
+  width: 50px;
+  background-image: url("../../assets/shuffle.png");
+}
+
+.backgroundImg1 {
+  background-image: url("../../assets/pantry.jpg");
+}
+
+.backgroundImg2 {
+  background-image: url("../../assets/sheet.jpg");
+}
+
+.testimonials1 {
+  background-image: url("../../assets/Sally.jpg");
+}
+
+.testimonials2 {
+  background-image: url("../../assets/Rebecca.jpg");
+}
+
+.backgroundImg3 {
+  background-image: url("../../assets/hero1.jpg");
+}
+
+.backgroundImg4 {
+  background-image: url("../../assets/marketing2.png");
+}
+
+.warning {
+  background-color: #c8a97e;
+  color: white;
+}
+
+.warning h2 {
+  color: white;
+}

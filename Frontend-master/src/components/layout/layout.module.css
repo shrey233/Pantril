@@ -1,0 +1,35 @@
+.header {
+  background-color: darkcyan;
+  color: white;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container {
+  margin-bottom: 100px;
+}
+
+.back {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0;
+  color: white;
+}
+
+.badge {
+  position: absolute;
+  margin-top: -5px;
+  margin-left: -5px;
+}

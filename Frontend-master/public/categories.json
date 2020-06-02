@@ -1,0 +1,12 @@
+{
+    "categories":[
+    {
+        "name":"Fruit & Veg",
+        "subCategories": ["Fresh Fruit", "Fresh Veg", "Organic Fresh Fruit & Veg", "Fresh Salad & Stir Fry", "Fresh Herbs"]
+    },
+    {
+        "name": "Meat, Seafood & Deli",
+        "subCategories": ["Meat", "Seafood", "BBQ Meat & Seafood", "Deli Meats", "Deli Specialities"]
+    }
+ ]
+}

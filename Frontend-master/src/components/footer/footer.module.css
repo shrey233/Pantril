@@ -1,0 +1,13 @@
+.logo {
+  height: 50px;
+}
+
+@media (min-width: 768px) {
+  .logo {
+    height: 100px;
+  }
+}
+
+.disclaimer {
+  color: rgba(255, 255, 255, 0.7);
+}
