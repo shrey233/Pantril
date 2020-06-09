@@ -9,8 +9,9 @@
 
 .container {
   margin-bottom: 100px;
-}
+  margin-top: 100px;
 
+}
 .back {
   background: none;
   color: inherit;
@@ -29,7 +30,26 @@
 }
 
 .badge {
-  position: absolute;
+  
+  float: right;
   margin-top: -5px;
   margin-left: -5px;
 }
+
+.side {
+  background-color: darkcyan;
+  display: block;
+
+}
+
+.newlist {
+  background-color: darkcyan;
+  color: white;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: left;
+
+}
+
+

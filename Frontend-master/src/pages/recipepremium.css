@@ -1,7 +1,9 @@
+/*Sample code used referenced from https://github.com/lashaNoz/food-searching-app */
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i,600,600i,700&display=swap");
 
+/*Code Linked with  recipe premium jsx*/
+/*This will do the UI and UX for the recipe page*/
 
-/*Sample code used referenced from https://github.com/lashaNoz/food-searching-app */
 * {
   font-family: "Source Sans Pro", sans-serif;
   margin: 0;
@@ -15,19 +17,14 @@ html {
   font-size: 62.5%;
 }
 
-.recipeform {
+.Recipepremium {
   display: flex;
-  
   flex-direction: column;
   align-items: center;
 }
 
-h1 {
-  font-size: 8rem;
-  letter-spacing: 0.1rem;
-  font-style: italic;
-  color: #40b48e;
-  text-shadow: 0 0.2rem 5rem rgb(119, 115, 115);
+.h1
+{
   text-transform: uppercase;
   margin: 4rem 0;
 }
@@ -86,7 +83,7 @@ h1 {
 }
 
 .recipes {
-  width: 90%;
+  width: 90%; 
   display: flex;
   align-items: center;
   flex-wrap: wrap;
@@ -159,4 +156,16 @@ h1 {
 .ingredient-weight {
   color: #40b48e;
   font-size: 1.3rem;
+}
+
+.multi-select {
+  --rmsc-primary: #4285f4;
+  --rmsc-hover: #f1f3f5;
+  --rmsc-selected: #e2e6ea;
+  --rmsc-border: #ccc;
+  --rmsc-gray: #aaa;
+  --rmsc-background: #fff;
+  --rmsc-spacing: 10px;
+  --rmsc-border-radius: 4px;
+  --rmsc-height: 38px;
 }

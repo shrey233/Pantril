@@ -10,7 +10,7 @@ import PrivacyPolicyPage from "./pages/privacy-policy";
 import ReactGA from "react-ga";
 import "./App.css";
 import Recipe from "./components/recipe/Recipe";
-import Recipeform from "./pages/recipepremium";
+import RecipeSearch from "./pages/recipepremium";
 
 function App({ history }) {
   React.useEffect(() => {
@@ -38,13 +38,11 @@ function App({ history }) {
         path="/product-details/:productId"
         component={ProductDetailsPage}
       />
-
       <Route path="/terms-of-use" component={TermsOfUsePage} />
       <Route path="/privacy-policy" component={PrivacyPolicyPage} />
 
       <Route path="/shopping-list" component={ShoppingListPage} />
-      <Route path ="/recipepremium" component={Recipeform} />
-
+      <Route path ="/recipepremium" component={RecipeSearch} />
     </Switch>
   );
 }

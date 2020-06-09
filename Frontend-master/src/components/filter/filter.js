@@ -442,9 +442,7 @@ const Filter = ({ history }) => {
         onClick={() =>
           history.push(
             `/recipepremium/({
-              allergens: filterExclude,
-              mayContain: mayContain,
-              lifestyle: filterInclude
+            
             })}`
           )
         }
