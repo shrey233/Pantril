@@ -1,0 +1,100 @@
+.filterSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 1rem;
+  background-image: url("../../assets/Fruit8.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center; 
+}
+
+.avoidance {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  font-size: 30px;
+   justify-content: center; 
+}
+.header2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  font-size: 40px;
+
+}
+
+.header {
+  padding-bottom: 20px;
+}
+
+.filters {
+  margin: 10px 15px;
+  text-align: center;
+  min-width: 345px;
+}
+
+.long {
+  display: none;
+}
+
+@media (min-width: 400px) {
+  .short {
+    display: none;
+    background-color: white;
+  }
+
+  .filterButton {
+    min-width: 120px;
+    color: white;
+    font-weight: 500;
+  }
+
+  .filters {
+    min-width: 480px;
+    color: white;
+  }
+}
+
+.mayContain {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 25px;
+}
+
+.chooseStore {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 30px;
+  /*color: 'light';*/
+  /*outline: 'light';*/
+
+}
+
+.filterSection .link {
+  font-size: 20px;
+  font-weight: 500;
+  text-decoration: underline;
+}
+
+.subLink {
+  font-size: 20px;
+  color: white;
+}
+
+.buttonFilter{
+  min-width: 120px;
+  color: #3d3d3d;
+
+}
+
+.button {
+  background: red;
+  border-radius: 8px;
+  color: white;
+}
+

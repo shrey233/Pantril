@@ -1,0 +1,11 @@
+.link {
+    margin-right: 40px;
+    margin-left: 240px;
+    background-color: red;
+    background-size: auto;
+    background-position: center center;
+    background-size: cover;
+  }
+  .input {
+    width: 30px !important;
+  }
